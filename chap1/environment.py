@@ -38,7 +38,7 @@ class Environment():
 
         # 属性の種類は以下の通り
         #  0: 普通のセル
-        #  -1: 強制終了セル?damage cell (game end)
+        #  -1: 穴, 落ちると死ぬ (game end)
         #  1: ゴール, 報酬を受け取れるセル (game end)
         #  9: いけないセル (can't locate agent)
         self.grid = grid
