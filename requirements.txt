@@ -1,0 +1,6 @@
+gym==0.14.0
+-e git+https://github.com/ntasfi/PyGame-Learning-Environment.git#egg=ple
+-e git+https://github.com/lusob/gym-ple.git#egg=gym-ple
+h5py==2.9.0
+pygame==1.9.6
+tqdm==4.32.1
