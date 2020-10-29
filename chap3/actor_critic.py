@@ -75,6 +75,7 @@ def train(env=None):
     if env is None:
         env = gym.make("FrozenLakeEasy-v0")
     actor, _ = trainer.train(env, episode_count=3000)
+    print(actor.Q)
     show_q_value(actor.Q)
     actor.show_reward_log()
 
